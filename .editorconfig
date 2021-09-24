@@ -1,0 +1,13 @@
+# EditorConfig http://EditorConfig.org
+
+[*.{js,scss,toml}]
+indent_style = space
+indent_size = 2
+
+[*.{htm,html,xml,xql,xqm}]
+indent_style = space
+indent_size = 4
+
+[*]
+end_of_line = lf
+insert_final_newline = true
