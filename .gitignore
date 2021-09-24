@@ -2,3 +2,6 @@
 !.gitignore
 !.editorconfig
 !.htaccess
+
+# Ignore generated example images during development
+resources/_gen/images/*
