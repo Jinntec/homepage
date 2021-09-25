@@ -2,15 +2,17 @@
 # favicon
 favicon = "images/favicon.png"
 # logo
-logo = "images/logo.svg"
+logo = "images/jinntec-logo.svg"
 # use `x` with logo_width, example: "100x"
+# !!!this doesn't work for SVG images and needs to be set by css !!!
+# Params.logo_width
 logo_width = "240x"
 # logo text will only show when logo is missing.
-logo_text = "Andromeda"
+logo_text = "Jinntec"
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
 author = "Themefisher"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+image = "images/jinntec-logo.png" # this image will be used as fallback if a page has no image of its own
 
 # footer information
 footer_info = "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat."
