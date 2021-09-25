@@ -1,11 +1,13 @@
 ---
 # banner
 banner:
-  title: "Andromeda est le moyen le plus intuitif de prototyper des conceptions"
-  button: "Télécharger le thème"
+  title: "(FR) Solutions for Science and Business"
+  subline: false
+  sublineText: "Some sub headline"
+  buttonLink: false
+  button: "Some text"
   button_link: "#!"
-  image: "images/banner-app.png"
-
+  # image: "images/banner-app.png"
 
 # brands
 brands_carousel:
