@@ -227,6 +227,7 @@
     </div>
 
     <div class="row justify-content-center align-items-center no-gutters">
+<!--
       <div class="col-xl-4 col-md-3 d-none d-lg-block" data-aos="fade-up" data-aos-delay="50">
         {{ if fileExists (add `assets/` .image_left) }}
         {{$image_left:= resources.Get .image_left }}
@@ -234,8 +235,10 @@
         <img loading="lazy" decoding="async" class="img-fluid" width="{{$image_left.Width}}" height="{{$image_left.Height}}" src="{{$image_left.RelPermalink}}" alt="testimonials" onerror="this.onerror=null;this.src='{{$image_left.RelPermalink}}'">
         {{end}}
       </div>
+-->
 
       <div class="col-xl-4 col-lg-5 col-md-8 col-sm-10" data-aos="fade-up">
+<!--      <div class="col-xl-8 col-lg-12 col-md-6 col-sm-10" data-aos="fade-up">-->
         <div class="testimonial-carousel swiper-container">
           <div class="swiper-wrapper mb-3">
             {{range .testimonials_quotes}}
@@ -264,6 +267,7 @@
         </div>
       </div>
 
+<!--
       <div class="col-xl-4 col-md-3 d-none d-lg-block" data-aos="fade-up" data-aos-delay="150">
         {{ if fileExists (add `assets/` .image_right) }}
         {{$img:= resources.Get .image_right }}
@@ -271,6 +275,7 @@
         <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$img.RelPermalink}}" alt="testimonials" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
         {{end}}
       </div>
+-->
     </div>
   </div>
 </section>

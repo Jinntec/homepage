@@ -16,14 +16,24 @@ how_it_works_video:
 how_it_works:   
   enable: true
   block:
-  - subtitle: "Primary Speciality"
-    title: "You Will Not miss Your All misunderstandings"
-    description: "Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the."
+  - subtitle: ""
+    title: "Digital Editions"
+    description: "From guidelines and transcription support via semantic enrichment and metadata - our integrated toolchain brings your Digital Edition online fast."
     image: "images/features-01.png"
 
-  - subtitle: "Secondary Speciality"
-    title: "Say hello to no-code The Advance Creation"
-    description: "From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code."
+  - subtitle: ""
+    title: "Libraries and Archives"
+    description: "We make long-term availability a reality by using Open Source, Open Standard tools that assert sustainability and open access without a lock-in."
+    image: "images/features-02.png"
+
+  - subtitle: ""
+    title: "Publishing"
+    description: "Create online- and print-publications with one process with highly automated typesetting. Ebook support, interactive content, MS Word integration and workflow support complement our solutions."
+    image: "images/features-02.png"
+
+  - subtitle: ""
+    title: "Low code applications"
+    description: "Our component-based approach allows us to put together declarative web applications without any script coding that are understandable even by non-technicians. "
     image: "images/features-02.png"
 
 ---

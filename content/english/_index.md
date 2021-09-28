@@ -28,7 +28,7 @@ brands_carousel:
 
 # features
 features:
-  enable: true
+  enable: false
   subtitle: "Special Features"
   title: "Elements to <br> get you started"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
@@ -71,10 +71,10 @@ how_it_works:
 
 # testimonials
 testimonials:   
-  enable: true
-  subtitle: "Our Testimonial"
-  title: "Don't take our word for it"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
+  enable: false
+  subtitle: 
+  title: ""
+  description: ""
   image_left: "images/testimonials-01.png"
   image_right: "images/testimonials-02.png"
   

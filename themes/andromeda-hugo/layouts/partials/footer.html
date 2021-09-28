@@ -40,12 +40,12 @@
           <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}/">
             {{ $logoPath:= site.Params.logo }}
             {{ $logoWidth:= replace site.Params.logo_width "px" "x" }}
-    
+
             <!-- checking logo existance -->
             {{ if $logoPath }}
             {{ if fileExists (add `assets/` $logoPath) }}
             {{ $logo:= resources.Get $logoPath }}
-    
+
             <!-- checking gif -->
             {{ $logoExt := path.Ext $logo }}
             {{ if eq $logoExt ".gif" }}
