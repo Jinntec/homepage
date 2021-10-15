@@ -19,21 +19,21 @@ how_it_works:
   - subtitle: ""
     title: "Digital Editions"
     description: "From guidelines and transcription support via semantic enrichment and metadata - our integrated toolchain brings your Digital Edition online fast."
-    image: "images/features-01.png"
+    image: "images/features/digital-editions-01.png"
 
   - subtitle: ""
     title: "Libraries and Archives"
     description: "We make long-term availability a reality by using Open Source, Open Standard tools that assert sustainability and open access without a lock-in."
-    image: "images/features-02.png"
+    image: "images/features/libraries-and-archives-01.png"
 
   - subtitle: ""
     title: "Publishing"
     description: "Create online- and print-publications with one process with highly automated typesetting. Ebook support, interactive content, MS Word integration and workflow support complement our solutions."
-    image: "images/features-02.png"
+    image: "images/features/publishing-03.png"
 
   - subtitle: ""
     title: "Low code applications"
     description: "Our component-based approach allows us to put together declarative web applications without any script coding that are understandable even by non-technicians. "
-    image: "images/features-02.png"
+    image: "images/features/low-code-applications-01.png"
 
 ---
