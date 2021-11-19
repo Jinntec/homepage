@@ -1,9 +1,9 @@
 ---
 # banner
 banner:
-  title: "Solutions for Science and Business"
-  subline: false
-  sublineText: "Some sub headline"
+  title: "Solutions for Research and Business"
+  subline: true
+  sublineText: "Technology with a touch of magic"
   buttonLink: false
   button: "Some text"
   button_link: "#!"
@@ -67,6 +67,7 @@ intro_video:
 how_it_works:   
   enable: true
   section: "how-it-works" # content comming from how-it-works page
+  title: "lkjsldf"
 
 
 # testimonials

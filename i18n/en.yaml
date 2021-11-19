@@ -1,3 +1,21 @@
+- id: directors
+  translation: Directors
+
+- id: imprint
+  translation: Contact | Imprint
+
+- id: postal
+  translation: Postal address
+
+- id: registration
+  translation: Company Registration
+
+- id: responsible
+  translation: responsible for content, concept and design
+
+- id: vat
+  translation: VAT-Id
+
 - id: socials
   translation: Socials
   
