@@ -1513,6 +1513,9 @@ footer.footer {
 .contact-widget .block ul li a {
   min-width: 200px; }
 
+.section-title p {
+  font-size: 1.2rem !important; }
+
 .whatwedo {
   text-align: center;
   animation: fadein 1s forwards;

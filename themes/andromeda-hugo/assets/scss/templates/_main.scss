@@ -1248,6 +1248,7 @@ footer.footer {
   padding:0.2rem 0;
   margin:0;
 }
+
 .contact-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -1285,6 +1286,9 @@ footer.footer {
 }
 .contact-widget .block ul li a{
   min-width:200px;
+}
+.section-title p{
+  font-size:1.2rem !important;
 }
 .whatwedo{
   text-align:center;
