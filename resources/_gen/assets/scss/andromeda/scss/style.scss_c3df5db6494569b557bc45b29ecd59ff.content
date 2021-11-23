@@ -1563,6 +1563,9 @@ footer.footer {
 .section-title p {
   font-size: 1.2rem !important; }
 
+select {
+  background: white; }
+
 .whatwedo {
   text-align: center;
   animation: fadein 1s forwards;
