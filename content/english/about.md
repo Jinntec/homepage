@@ -14,7 +14,7 @@ who_we_are:
 
 # what_we_do
 what_we_do:
-  enable: true
+  enable: false
   subtitle: "Our Works"
   title: "What We Do"
   block:

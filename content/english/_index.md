@@ -67,7 +67,6 @@ intro_video:
 how_it_works:   
   enable: true
   section: "how-it-works" # content comming from how-it-works page
-  title: "lkjsldf"
 
 
 # testimonials
