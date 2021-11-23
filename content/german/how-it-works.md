@@ -15,15 +15,29 @@ how_it_works_video:
 # how_it_works
 how_it_works:   
   enable: true
+  title: "Was wir tun"
   block:
-  - subtitle: "Primary Speciality"
-    title: "You Will Not miss Your All misunderstandings"
-    description: "Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the."
-    image: "images/features-01.png"
+  - subtitle: ""
+    title: "Digitale Editionen"
+    description: "Von der Entwicklung von Guidlines bis zur semantischen Anreicherung mit Metadaten - wir bieten eine komplette Plattform um Digitale Editionen schnell online zu bringen."
+    image: "images/digital-edition.jpg"
 
-  - subtitle: "Secondary Speciality"
-    title: "Say hello to no-code The Advance Creation"
-    description: "From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code."
-    image: "images/features-02.png"
+  - subtitle: ""
+    title: "Bibliotheken und Archive"
+    description: "Wir glauben an die Wichtigkeit von Cultural Heritage - unsere Werkzeuge basieren auf nachhaltigen Technologien und offenen Standards und sind dauerhaft als Open Source verfügbar.
+    From transcription to publishing online or in print - we cover your workflows."
+    image: "images/archives1.jpg"
+
+  - subtitle: ""
+    title: "Publishing"
+    description: "Online- und Print Publikationen werden in einem einzigen Schritt erzeugt und unterstützen high-quality Typesetting. Ebook, interaktiver Content, MS Word import und Workflow support vervollständingen unser Angebot."
+    image: "images/publish.jpg"
+
+  - subtitle: ""
+    title: "Individuelle Lösungen"
+    description: "Our component-based approach allows us to put together declarative web applications without any script coding that are understandable even by non-technicians. "
+    description: "Mit unseren Komponenten-basierten Tools können deklarative Web Applikationen erstellt werden, ohne eine einzige Zeile Skript Code zu schreiben. End-Anwender
+     können ihr Produkt verstehen und weitgehend konfigurieren. "
+    image: "images/institutions.jpg"
 
 ---

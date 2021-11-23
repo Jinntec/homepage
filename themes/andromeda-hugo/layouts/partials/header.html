@@ -8,12 +8,12 @@
               <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}/">
                 {{ $logoPath:= site.Params.logo }}
                 {{ $logoWidth:= replace site.Params.logo_width "px" "x" }}
-        
+
                 <!-- checking logo existance -->
                 {{ if $logoPath }}
                 {{ if fileExists (add `assets/` $logoPath) }}
                 {{ $logo:= resources.Get $logoPath }}
-        
+
                 <!-- checking gif -->
                 {{ $logoExt := path.Ext $logo }}
                 {{ if eq $logoExt ".gif" }}
@@ -81,14 +81,14 @@
                   <li class="nav-item {{if .IsHome}}active{{end}}">
                     <a class="nav-link" href="{{ site.BaseURL | relLangURL }}/">Home</a>
                   </li>
-                  
+
                   {{ $currentPage := . }}
                   {{ range site.Menus.main }}
                   {{ $menuURL := .URL | absLangURL }}
                   {{ $pageURL:= $currentPage.Permalink | absLangURL }}
                   {{ $active := eq $menuURL $pageURL }}
                   {{ if .HasChildren }}
-                  <li class="nav-item dropdown 
+                  <li class="nav-item dropdown
                   {{ range .Children }}
                   {{ $childURL := .URL | absLangURL }}
                   {{ $active := eq $childURL $pageURL }}
@@ -117,7 +117,7 @@
                   {{ end }}
                   {{ end }}
                 </ul>
-        
+
                 <div class="navbar-right">
                   <!-- Language List -->
                   {{ if .IsTranslated }}

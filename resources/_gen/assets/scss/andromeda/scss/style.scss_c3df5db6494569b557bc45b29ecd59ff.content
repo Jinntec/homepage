@@ -660,51 +660,95 @@ header {
       right: 0; }
     .banner .has-circle .circle-1 {
       top: 50px;
-      left: 11%; }
+      left: 11%;
+      animation-delay: 3s;
+      animation: fade1 10s infinite; }
     .banner .has-circle .circle-2 {
       top: 29%;
-      left: 3%; }
+      left: 3%;
+      animation-delay: 4s;
+      animation: fade1 10s infinite; }
       @media (max-width: 991px) {
         .banner .has-circle .circle-2 {
           display: none; } }
     .banner .has-circle .circle-3 {
       top: 45%;
-      left: 22%; }
+      left: 22%;
+      animation-delay: 4.5s;
+      animation: fade1 8s infinite; }
     .banner .has-circle .circle-4 {
       bottom: 35%;
-      left: 15%; }
+      left: 15%;
+      animation-delay: 4.5s;
+      animation: fade1 16s infinite; }
       @media (max-width: 991px) {
         .banner .has-circle .circle-4 {
           left: 5%; } }
     .banner .has-circle .circle-5 {
       bottom: 8%;
-      left: 6%; }
+      left: 6%;
+      animation-delay: 5s;
+      animation: fade1 4s infinite; }
       @media (max-width: 400px) {
         .banner .has-circle .circle-5 {
           left: 40%; } }
     .banner .has-circle .circle-6 {
       top: 100px;
-      right: 12%; }
+      right: 12%;
+      animation-delay: 5s;
+      animation: fade1 3s infinite; }
     .banner .has-circle .circle-7 {
       top: 30%;
-      right: 2%; }
+      right: 2%;
+      animation-delay: 6s;
+      animation: fade1 14s infinite; }
       @media (max-width: 767px) {
         .banner .has-circle .circle-7 {
           display: none; } }
     .banner .has-circle .circle-8 {
       top: 52%;
-      right: 19%; }
+      right: 19%;
+      animation-delay: 5.5s;
+      animation: fade1 25s infinite; }
     .banner .has-circle .circle-9 {
       top: 55%;
-      right: 33%; }
+      right: 33%;
+      animation-delay: 6s;
+      animation: fade1 13s infinite; }
       @media (max-width: 400px) {
         .banner .has-circle .circle-9 {
           display: none; } }
     .banner .has-circle .circle-10 {
       bottom: 20%;
-      right: 5%; }
+      right: 5%;
+      animation-delay: 6.5s;
+      animation: fade1 5s infinite; }
       @media (max-width: 400px) {
         .banner .has-circle .circle-10 {
+          display: none; } }
+    .banner .has-circle .circle-11 {
+      top: 400px;
+      right: 45%;
+      animation-delay: 6.5s;
+      animation: fade1 3s infinite;
+      position: fixed;
+      z-index: 10;
+      width: 48px;
+      height: 48px; }
+      @media (max-width: 400px) {
+        .banner .has-circle .circle-11 {
+          display: none; } }
+    .banner .has-circle .circle-12 {
+      top: 500px;
+      left: 18%;
+      position: fixed;
+      z-index: 10;
+      width: 80px;
+      height: 80px;
+      animation-delay: 6.5s;
+      animation: fade1 7s infinite; }
+      @media (max-width: 400px) {
+        .banner .has-circle .circle-12 {
           display: none; } }
 .page-header {
   position: relative; }
@@ -1477,6 +1521,9 @@ footer.footer {
   padding: 0.2rem 0;
   margin: 0; }
 
+.circle {
+  animation-delay: 3s; }
+
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1531,6 +1578,17 @@ footer.footer {
   100% {
     opacity: 1;
     transform: translateY(0px); } }
+
+@keyframes fade1 {
+  0% {
+    opacity: 0;
+    transform: scale(1); }
+  50% {
+    opacity: 1;
+    transform: scale(1.2); }
+  100% {
+    opacity: 0;
+    transform: scale(1); } }
 
 .banner {
   height: 400px;

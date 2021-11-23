@@ -1,3 +1,21 @@
+- id: directors
+  translation: Gesellschafter
+
+- id: imprint
+  translation: Kontak | Impressum
+
+- id: postal
+  translation: Adresse
+
+- id: registration
+  translation: Handelsregistereintrag
+
+- id: responsible
+  translation: verantwortlich für Inhalt, Konzeption und Design
+
+- id: vat
+  translation: Umsatzsteuer Id
+
 - id: socials
   translation: Socials
   
@@ -38,7 +56,7 @@
   translation: Your name is required!
   
 - id: email
-  translation: Email Address
+  translation: Email
   
 - id: email_re
   translation: Your email is required!
@@ -80,7 +98,7 @@
   translation: Your Message
   
 - id: phone
-  translation: Phone
+  translation: Telefon
   
 - id: contact_us
   translation: Contact us

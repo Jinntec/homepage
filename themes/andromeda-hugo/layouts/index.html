@@ -40,6 +40,8 @@
           <span class="circle-8 ratio-37" data-rellax-speed="-.5"></span>
           <span class="circle-9 ratio-20 fill" data-rellax-speed="1"></span>
           <span class="circle-10 ratio-65 fill" data-rellax-speed="-2"></span>
+          <span class="circle-11 ratio-75 fill" data-rellax-speed="-2"></span>
+          <span class="circle-12 ratio-20 fill" data-rellax-speed="-1"></span>
 
           <svg class="text-primary" style="opacity:.14" width='100%' height='90%' viewBox='0 0 1397 502' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M2 501C35.0836 398.787 165.889 212.869 424.439 286.903C747.628 379.445 887.776 260.891 943.636 155.844C999.496 50.796 1146.13 -47.2484 1396 29.2863' stroke='currentColor' stroke-opacity='0.85' stroke-width='4' stroke-dasharray='10 10'/></svg>
 
@@ -181,7 +183,7 @@
 {{with site.GetPage (string .section)}}
 {{with .Params.how_it_works}}
 <section class="section-sm">
-  <h2 class="whatwedo">What we do</h2>
+  <h2 class="whatwedo">{{.title | markdownify}}</h2>
   <div class="container">
     {{ $.Scratch.Set "counter" 0 }}
     {{range .block}}

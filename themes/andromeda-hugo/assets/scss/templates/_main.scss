@@ -40,6 +40,8 @@
     .circle-1 {
       top: 50px;
       left: 11%;
+      animation-delay:3s;
+      animation: fade1 10s infinite;
     }
 
     .circle-2 {
@@ -49,16 +51,24 @@
       @include desktop {
         display: none;
       }
+      animation-delay:4s;
+      animation: fade1 10s infinite;
+
     }
 
     .circle-3 {
       top: 45%;
       left: 22%;
+      animation-delay:4.5s;
+      animation: fade1 8s infinite;
+
     }
 
     .circle-4 {
       bottom: 35%;
       left: 15%;
+      animation-delay:4.5s;
+      animation: fade1 16s infinite;
 
       @include desktop {
         left: 5%;
@@ -68,6 +78,9 @@
     .circle-5 {
       bottom: 8%;
       left: 6%;
+      animation-delay:5s;
+      animation: fade1 4s infinite;
+
 
       @include mobile-xs {
         left: 40%;
@@ -77,11 +90,16 @@
     .circle-6 {
       top: 100px;
       right: 12%;
+      animation-delay:5s;
+      animation: fade1 3s infinite;
+
     }
 
     .circle-7 {
       top: 30%;
       right: 2%;
+      animation-delay:6s;
+      animation: fade1 14s infinite;
 
       @include tablet {
         display: none;
@@ -91,11 +109,15 @@
     .circle-8 {
       top: 52%;
       right: 19%;
+      animation-delay:5.5s;
+      animation: fade1 25s infinite;
     }
 
     .circle-9 {
       top: 55%;
       right: 33%;
+      animation-delay:6s;
+      animation: fade1 13s infinite;
 
       @include mobile-xs {
         display: none;
@@ -105,6 +127,37 @@
     .circle-10 {
       bottom: 20%;
       right: 5%;
+      animation-delay:6.5s;
+      animation: fade1 5s infinite;
+
+      @include mobile-xs {
+        display: none;
+      }
+    }
+    .circle-11 {
+      top: 400px;
+      right: 45%;
+      animation-delay:6.5s;
+      animation: fade1 3s infinite;
+      position:fixed;
+      z-index:10;
+      width:48px;
+      height:48px;
+
+      @include mobile-xs {
+        display: none;
+      }
+    }
+    .circle-12 {
+      top: 500px;
+      left: 18%;
+      position:fixed;
+      z-index:10;
+      width:80px;
+      height:80px;
+
+      animation-delay:6.5s;
+      animation: fade1 7s infinite;
 
       @include mobile-xs {
         display: none;
@@ -1248,6 +1301,9 @@ footer.footer {
   padding:0.2rem 0;
   margin:0;
 }
+.circle{
+  animation-delay:3s;
+}
 
 .contact-grid{
   display:grid;
@@ -1309,4 +1365,19 @@ footer.footer {
     transform:translateY(0px);
   }
 }
+@keyframes fade1 {
+  0% {
+    opacity:0;
+    transform:scale(1);
+  }
+  50%{
+    opacity:1;
+    transform:scale(1.2);
+  }
+  100% {
+    opacity:0;
+    transform:scale(1);
+  }
+}
+
 

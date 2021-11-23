@@ -5,19 +5,7 @@ languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
-
-
-
-################################### French language #####################################
-[fr]
-languageName = "Fr"
-languageCode = "fr-FR"
-contentDir = "content/french"
-weight = 2
-# copyright
-copyright = "Conçu Par [Themefisher](https://themefisher.com/) & Développé Par [Gethugothemes](https://gethugothemes.com/)"
-
+copyright = "Jinntec Gmbh, 2021"
 
 
 ################################### German language #####################################
@@ -25,16 +13,7 @@ copyright = "Conçu Par [Themefisher](https://themefisher.com/) & Développé Pa
 languageName = "De"
 languageCode = "de-DE"
 contentDir = "content/german"
-weight = 3
+weight = 2
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Jinntec Gmbh, 2021"
 
-
-################################### Polish language #####################################
-[pl]
-languageName = "Pl"
-languageCode = "pl-PL"
-contentDir = "content/polish"
-weight = 4
-# copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"

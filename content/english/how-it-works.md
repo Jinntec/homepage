@@ -15,6 +15,7 @@ how_it_works_video:
 # how_it_works
 how_it_works:   
   enable: true
+  title: "What we do"
   block:
   - subtitle: ""
     title: "Digital Editions"

@@ -8,10 +8,10 @@ logo = "images/jinntec-logo.svg"
 # Params.logo_width
 logo_width = "240x"
 # logo text will only show when logo is missing.
-logo_text = "Jinntec"
+logo_text = "Jinntec GmbH"
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
-author = "Themefisher"
+description = "Jinntec offers solutions for Research and Business. We offer open source solutions for Digital Editions, Libraries and Archives, Publishing and individual solutions on our own platform."
+author = "Jinntec GmbH"
 image = "images/jinntec-logo.png" # this image will be used as fallback if a page has no image of its own
 
 # footer information

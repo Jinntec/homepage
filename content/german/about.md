@@ -14,9 +14,9 @@ who_we_are:
 
 # what_we_do
 what_we_do:
-  enable: true
+  enable: false
   subtitle: "Our Works"
-  title: "What We Do"
+  title: "Was wir tun"
   block:
   - title: "Building a new class"
     content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
