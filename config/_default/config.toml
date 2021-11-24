@@ -13,7 +13,6 @@ disqusShortname = "themefisher-template" # get your shortname form here : https:
 # disable language
 disableLanguages = ["fr","pl"] # example: ["fr"] for disable french language
 
-
 ############################# Outputs ##############################
 [outputs]
 home = ["HTML", "RSS", "WebAppManifest"]
