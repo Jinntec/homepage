@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://jinntec.netlify.app/"
+baseURL = ""
 title = "Jinntec GmbH"
 theme = "andromeda-hugo"
 # post pagination
