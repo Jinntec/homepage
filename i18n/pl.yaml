@@ -1,110 +1,110 @@
 - id: socials
-  translation: Socials
+  translation: Społeczności
   
 - id: social_media
-  translation: Social Media
+  translation: Media społecznościowe
   
 - id: quick_links
-  translation: Quick Links
+  translation: Linki
   
 - id: location_contact
-  translation: Location & Contact
+  translation: Kontakt
   
 - id: recent_posts
-  translation: Recent Posts by
+  translation: Ostatnie posty
   
 - id: related_articles
-  translation: Related Articles
+  translation: Powiązane artykuły
   
 - id: view_listing
-  translation: View Listing
+  translation: Zobacz listę
   
 - id: read_more
-  translation: Read More
+  translation: Więcej
   
 - id: about_the_role
-  translation: About the role
+  translation: O roli
   
 - id: fname
-  translation: First Name
+  translation: Imię
   
 - id: full_name
-  translation: Full Name
+  translation: Imię i nazwisko
   
 - id: lname
-  translation: Last Name
+  translation: Nazwisko
   
 - id: name_re
-  translation: Your name is required!
+  translation: Imię i nazwisko są wymagane!
   
 - id: email
-  translation: Email Address
+  translation: Adres email
   
 - id: email_re
-  translation: Your email is required!
+  translation: Email jest wymagany!
   
 - id: upload_cv
-  translation: Upload CV
+  translation: Dołącz CV
   
 - id: cv_note
-  translation: only doc, pdf file allowed &amp; file size will be less than 2MB
+  translation: dozwolone są tylko pliki w formatach doc lub pdf &amp; limit wielkości pliku wynosi 2MB
   
 - id: cv_re
-  translation: Your CV is required!
+  translation: CV jest wymagane!
   
 - id: apply_job
-  translation: Apply for Job
+  translation: Aplikuj o pracę
   
 - id: lets_meet
-  translation: Lets Meet
+  translation: Spotkajmy się!
   
 - id: year
-  translation: Year
+  translation: Rok
   
 - id: location
-  translation: Location
+  translation: Siedziba
   
 - id: company_size
-  translation: Company Size
+  translation: Wielkość firmy
   
 - id: send_a_message
-  translation: Send A Message
+  translation: Wyślij wiadomość
   
 - id: send_message
-  translation: Send Message
+  translation: Wyślij wiadomość
   
 - id: comment_re
-  translation: Your comment is required!
+  translation: Twój komentarz jest wymagany!
   
 - id: your_message
-  translation: Your Message
+  translation: Twoja wiadomość
   
 - id: phone
-  translation: Phone
+  translation: Telefon
   
 - id: contact_us
-  translation: Contact us
+  translation: Skontaktuj się z nami
   
 - id: get_in_touch
-  translation: Get In Touch
+  translation: Skontaktuj się z nami
   
 - id: form_thanks_message
-  translation: Thanks for your submission!
+  translation: Dziękujemy za zgłoszenie!
   
 - id: form_error_message
-  translation: Oops! There was a problem submitting your form
+  translation: Ups! Wystąpił jakiś problem z przesłaniem Twojego formularza
   
 - id: min_read
-  translation: Min read
+  translation: minut
   
 - id: monthly
-  translation: Billed Monthly
+  translation: obciążenie miesięczne
   
 - id: yearly
-  translation: Billed Annually
+  translation: obciążenie roczne
   
 - id: month
-  translation: Month
+  translation: miesiąc
   
 - id: year
-  translation: Year
+  translation: rok
