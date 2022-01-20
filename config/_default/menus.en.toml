@@ -1,11 +1,9 @@
 ############# English navigation ##############
 
-# main menu
-# [[main]]
-# name = "About"
-# url = "about/"
-# weight = 1
-
+[[main]]
+name = "Home"
+url = ""
+weight = 1
 
 [[main]]
 name = "Contact"
