@@ -5,7 +5,7 @@ languageCode = "en-US"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Jinntec Gmbh, 2021"
+copyright = "Jinntec Gmbh, 2022"
 
 
 ################################### German language #####################################
@@ -15,5 +15,5 @@ languageCode = "de-DE"
 contentDir = "content/german"
 weight = 2
 # copyright
-copyright = "Jinntec Gmbh, 2021"
+copyright = "Jinntec Gmbh, 2022"
 

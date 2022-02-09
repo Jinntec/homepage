@@ -10,20 +10,3 @@ name = "Contact"
 url = "contact/"
 weight = 2
 
-#
-# # footer menu
-# [[footer]]
-# name = "About"
-# url = "about/"
-# weight = 1
-#
-#
-# [[footer]]
-# name = "Terms & Conditions"
-# url = "terms-and-conditions/"
-# weight = 3
-#
-# [[footer]]
-# name = "Changelog"
-# url = "changelog/"
-# weight = 4
