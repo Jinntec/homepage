@@ -20,6 +20,15 @@
 {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
 
+<!-- SEO optimizations -->
+{{ if eq (getenv "HUGO_ENV") "production" }}
+<meta name="robots" content="index,follow">
+{{ else }}
+<meta name="robots" content="noindex,nofollow">
+{{ end }}
+<meta name="keywords" content="{{ if .Params.Keywords }}{{ .Params.Keywords }}{{ end }}">
+<link rel="canonical" href="{{ .RelPermalink | absLangURL }}">
+
 <!-- favicon -->
 {{ $favicon:= site.Params.favicon }}
 {{ if $favicon }}

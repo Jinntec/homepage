@@ -1,4 +1,8 @@
 ---
+######################################
+##         Active Content           ##
+######################################
+
 # banner
 banner:
   title: "Solutions for Research and Business"
@@ -8,6 +12,41 @@ banner:
   button: "Some text"
   button_link: "#!"
   # image: "images/banner-app.png"
+
+# our_features
+our_features:   
+  enable: true
+  title: "What we do"
+  block:
+  - subtitle: ""
+    title: "Digital Editions"
+    description: "From guidelines and transcription support via semantic enrichment and metadata - our integrated toolchain brings your Digital Edition online fast."
+    image: "images/digital-edition.jpg"
+    linkToPage: "digital-editions/"
+
+  - subtitle: ""
+    title: "Libraries and Archives"
+    description: "We believe in the importance of cultural heritage - our tools help to preserve it with sustainable technology based on Open Source, Open Standard software.
+    From transcription to publishing online or in print - we cover your workflows."
+    image: "images/archives1.jpg"
+    linkToPage: "libraries-and-archives/"
+
+  - subtitle: ""
+    title: "Publishing"
+    description: "Create online- and print-publications with one process with highly automated typesetting. Ebook support, interactive content, MS Word integration and workflow support complement our solutions."
+    image: "images/publish.jpg"
+    linkToPage: "publishing/"
+
+  - subtitle: ""
+    title: "Institutions & Businesses"
+    description: "Our component-based approach allows us to put together declarative web applications without any script coding that are understandable even by non-technicians. "
+    image: "images/institutions.jpg"
+    linkToPage: "institutions-and-business/"
+
+
+######################################
+##    This Content isn't used yet   ##
+######################################
 
 # brands
 brands_carousel:
@@ -24,7 +63,6 @@ brands_carousel:
   - "images/brands/01-colored.png"
   - "images/brands/06-colored.png"
   - "images/brands/05-colored.png"
-
 
 # features
 features:
@@ -61,13 +99,6 @@ intro_video:
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
   video_thumbnail: "images/video-popup.jpg"
-
-
-# how_it_works
-how_it_works:   
-  enable: true
-  section: "how-it-works" # content comming from how-it-works page
-
 
 # testimonials
 testimonials:   

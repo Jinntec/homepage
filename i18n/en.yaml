@@ -40,6 +40,9 @@
 - id: read_more
   translation: Read More
   
+- id: read_more_about
+  translation: Read More about
+
 - id: about_the_role
   translation: About the role
   

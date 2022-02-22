@@ -38,8 +38,11 @@
   translation: View Listing
   
 - id: read_more
-  translation: Read More
-  
+  translation: Mehr lesen
+
+- id: read_more_about
+  translation: Mehr lesen über
+
 - id: about_the_role
   translation: About the role
   

@@ -6,6 +6,71 @@ url = ""
 weight = 1
 
 [[main]]
+weight = 2
+name = "Unsere Leistungen"
+hasChildren = true
+
+  [[main]]
+  parent = "Unsere Leistungen"
+  name = "Digitale Editionen"
+  url = "digital-editions/"
+  weight = 1
+
+  [[main]]
+  parent = "Unsere Leistungen"
+  name = "Bibliotheken Und Archive"
+  url = "libraries-and-archives/"
+  weight = 2
+
+  [[main]]
+  parent = "Unsere Leistungen"
+  name = "Publishing"
+  url = "publishing/"
+  weight = 3
+
+  [[main]]
+  parent = "Unsere Leistungen"
+  name = "Individuelle Lösungen"
+  url = "institutions-and-business/"
+  weight = 4
+
+[[main]]
+name = "Über Uns"
+url = "about/"
+weight = 3
+
+[[main]]
 name = "Kontakt"
 url = "contact/"
+weight = 4
+
+# footer menu
+[[footer]]
+name = "Digitale Editionen"
+url = "digital-editions/"
+weight = 1
+
+[[footer]]
+name = "Bibliotheken Und Archive"
+url = "libraries-and-archives"
+weight = 2
+
+[[footer]]
+name = "Publishing"
+url = "publishing/"
+weight = 3
+
+[[footer]]
+name = "Individuelle Lösungen"
+url = "institutions-and-business"
+weight = 4
+
+[[footer]]
+name = "Über Uns"
+url = "about/"
 weight = 5
+
+[[footer]]
+name = "Imprint"
+url = "imprint/"
+weight = 6

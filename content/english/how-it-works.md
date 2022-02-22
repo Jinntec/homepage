@@ -3,6 +3,10 @@ title: "How It Works"
 layout: "how-it-works"
 draft: false
 
+######################################
+##    This Content isn't used yet   ##
+######################################
+
 how_it_works_video:
   enable: true
   subtitle: "Our Features"
@@ -14,7 +18,7 @@ how_it_works_video:
 
 # how_it_works
 how_it_works:   
-  enable: true
+  enable: false
   title: "What we do"
   block:
   - subtitle: ""
