@@ -3,5 +3,5 @@
 !.editorconfig
 !.htaccess
 
-# Ignore generated example images during development
-resources/_gen/images/*
+# Ignore generated files during development
+resources/_gen/*
