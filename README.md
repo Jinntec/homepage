@@ -55,9 +55,14 @@ hugo server
 ### Customize SCSS 
 Don't edit the scss vendor theme files directly (everything in folder `themes/andromeda-hugo/scss`!) and edit the custom scss file instead => 
  ```
- assets/scss/custom.scss
+assets/scss/custom.scss
  ```
 This helps to keep the css in order and to update with future versions of the theme.
+
+To define global variables and plugins, edit file
+```
+themes/andromeda-hugo/config.toml 
+```
 
 ### Customize Templates
 Also, avoid to edit the original templates, rather create new ones and add them to the theme folder `themes/andromeda-hugo/layouts/`.
