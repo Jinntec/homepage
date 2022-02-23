@@ -8,8 +8,8 @@ Jinntec Homepage
 
 | Content                   |      Path                                                                     | 
 | ------------------------- | ----------------------------------------------------------------------------- |
-| menu                      | `config/_default/params.toml`, `english/contact.md`, `german/contact.md`      |
-| contact, logo             | `config/_default/menus.en.toml`, `config/_default/menus.de.toml`              |
+| menu                      | `config/_default/menus.en.toml`, `config/_default/menus.de.toml`              |
+| contact, logo             | `config/_default/params.toml`, `english/contact.md`, `german/contact.md`      |
 | home                      | `english/_index.md`, `german/_index.md`                                       |
 | about                     | `english/about.md`, `german/about.md`                                         |
 | digital-editions          | `english/_index.md`, `german/_index.md`                                       |
