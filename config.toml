@@ -1,3 +1,10 @@
 baseURL = 'https://jinntec.com/'
 languageCode = 'en-US'
 title = 'Jinntec GmbH'
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# For disabling sitemap generation:
+# disableKinds = 'sitemap'
