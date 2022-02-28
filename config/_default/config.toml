@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = ""
+baseURL = "https://jinntec.com/"
 title = "Jinntec GmbH"
 theme = "andromeda-hugo"
 # post pagination
