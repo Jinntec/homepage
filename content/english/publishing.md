@@ -1,27 +1,19 @@
 ---
 title: "Publishing"
-layout: "features-1"
+layout: "terms-and-conditions"
 draft: false
 url: "publishing/"
 
-######################################
-##       Placeholder Content        ##
-######################################
+description: "Libraries And Archives Page Description"
+---
+## Single Source Publishing
+Produce an online and a print publication out of the same data source and transformation pipeline (all based on standards)
 
-# what_we_do
-what_we_do:
-  enable: true
-  subtitle: "Our Works"
-  title: "What We Do"
-  block:
-  - title: "Single Source Publishing"
-    content: "produce an online and a print publication out of the same data source and transformation pipeline (all based on standards)"
+## Automate it all
+automate the publication process, avoiding labour-intensive manual typesetting as much as possible
 
-  - title: "Automate it all"
-    content: "automate the publication process, avoiding labour-intensive manual typesetting as much as possible"
-    
-  - title: "Tailored to your needs"
-    content: "customized solutions for interactive publications, ebooks ... "
-    
+Tailored to your needs
+customized solutions for interactive publications, ebooks ... 
+
 
 ---

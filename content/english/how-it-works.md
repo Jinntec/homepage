@@ -9,7 +9,7 @@ draft: false
 
 how_it_works_video:
   enable: true
-  subtitle: "Services"
+  subtitle: "Audiences"
   title: "How it works"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
