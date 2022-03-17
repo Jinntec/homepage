@@ -7,29 +7,29 @@ weight = 1
 
 [[main]]
 weight = 2
-name = "Our Features"
+name = "Services"
 hasChildren = true
 
   [[main]]
-  parent = "Our Features"
+  parent = "Services"
   name = "Digital Editions"
   url = "digital-editions/"
   weight = 1
 
   [[main]]
-  parent = "Our Features"
+  parent = "Services"
   name = "Libraries And Archives"
   url = "libraries-and-archives/"
   weight = 2
 
   [[main]]
-  parent = "Our Features"
+  parent = "Services"
   name = "Publishing"
   url = "publishing/"
   weight = 3
 
   [[main]]
-  parent = "Our Features"
+  parent = "Services"
   name = "Institutions & Businesses"
   url = "institutions-and-business/"
   weight = 4
