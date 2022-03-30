@@ -65,7 +65,9 @@ Also, avoid to edit the original templates, rather create new ones and add them 
 ## Publishing the Site to Production
 
 **IMPORTANT NOTE:**
+
 **Please keep in mind, that pushing your local code to the remote repo's `master` branch will immediately be deployed to the production server via Netlify services!**
+
 If your fixes are production-ready, this is the way to publish new content and code.
 If you want to publish a draft / WIP, you should open a new feature-branch and merge with `master` after review.
 
