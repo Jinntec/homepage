@@ -23,7 +23,7 @@ how_it_works:
   block:
   - subtitle: ""
     title: "Digitale Editionen"
-    description: "Von der Entwicklung von Guidelines bis zur semantischen Anreicherung mit Metadaten - wir bieten eine komplette Plattform um Digitale Editionen schnell online zu bringen."
+    description: "Von der Entwicklung von Guidlines bis zur semantischen Anreicherung mit Metadaten - wir bieten eine komplette Plattform um Digitale Editionen schnell online zu bringen."
     image: "images/digital-edition.jpg"
 
   - subtitle: ""
