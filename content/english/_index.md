@@ -18,30 +18,34 @@ our_features:
   enable: true
   title: "What we do"
   block:
-  - subtitle: ""
-    title: "Digital Editions"
-    description: "From guidelines and transcription support via semantic enrichment and metadata - our integrated toolchain brings your Digital Edition online fast."
+
+  - subtitle: "Research & Commercial"
+    title: "Institutions & Businesses"
+    description: "Our cost-effective, open source, modular approach allows us to rapidly put together aplications with very little custom coding which are easily maintainable even by non-technicians. "
+    image: "images/institutions.jpg"
+    linkToPage: "institutions-and-business/"
+
+  - subtitle: "Digital editions & Humanities research"
+    title: "Digital Humanities"
+    description: "
+    Fast track from research data preparation and maintenance to the publication of your material online and in print with a full blown query interfaces supporting data discovery, various visualizations and multi-facetted searches. Handwritten text recognition, automated language processing, Microsoft Word and XML data input and more - we handle it all."
+    #change image to something with a network graph
     image: "images/digital-edition.jpg"
     linkToPage: "digital-editions/"
 
-  - subtitle: ""
+  - subtitle: "True Interoperability & Sustainability"
     title: "Libraries and Archives"
-    description: "We believe in the importance of cultural heritage - our tools help to preserve it with sustainable technology based on Open Source, Open Standard software.
-    From transcription to publishing online or in print - we cover your workflows."
+    description: "How can libraries and archives really preserve digital publications and research datasets created through the decades with a multitude of technologies and standards? Let us tell you how."
     image: "images/archives1.jpg"
     linkToPage: "libraries-and-archives/"
 
   - subtitle: ""
     title: "Publishing"
-    description: "Create online- and print-publications with one process with highly automated typesetting. Ebook support, interactive content, MS Word integration and workflow support complement our solutions."
-    image: "images/publish.jpg"
+    description: "Create online and print publications with a single, highly automated typesetting process based on acknowledged open source standards. Responsive websites, high quality PDF and ebook generation, interactive content, MS Word integration and full workflow support all come together in our solutions."
+    image: "images/digital-edition.jpg"
     linkToPage: "publishing/"
 
-  - subtitle: ""
-    title: "Institutions & Businesses"
-    description: "Our component-based approach allows us to put together declarative web applications without any script coding that are understandable even by non-technicians. "
-    image: "images/institutions.jpg"
-    linkToPage: "institutions-and-business/"
+  
 
 
 ######################################

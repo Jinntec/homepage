@@ -1,16 +1,25 @@
 ---
-title: "Digital Editions"
+title: "Digital Humanities"
 layout: "terms-and-conditions"
 draft: false
 url: "digital-editions/"
 
 
-description: "Digital Editions Page Description"
+description: "Digital Humanities Page Description"
 ---
 
-## Encoding guidelines, data structures etc.
+# Humanities Research
 
-This is often neglected. It is important though to be explicit about the encoding principles, TEI subset etc. before you start transcribing. This includes writing an ODD from which a schema and project documentation can be generated. We can also suggest an organization for your data files: encoded source documents, authority files (such as lists of persons, places or bibliography), image resources, binary files etc. Consulting with us in this phase will also help to avoid costs later as we can establish a data structure tailored to the specific requirements and research questions of a project.
+From expert advice on appropiate encoding standards, tools and workflows to final publication online or in print, datasets maintenance and integration with external systems - we can help you focus on the project while we handle the technical details. With a range of completed projects under our belt - covering virtually all periods and humanities research domains - and experience of our personnel we are uniquely positioned to suggest the best practices for you considering future-proof, state of the art solutions available.
+
+## Encoding standards and data organization
+
+Great projects start with good logistic. While often neglected, thorough analysis at the initial stage of the project can save a lot of heartache later. Specialist advice regarding the data modelling and organization, selection of applicable standards and preparation of encoding guidelines and schemas assures your project data stays consistent, ready for publication and research investigations for decades to come.
+
+We can advise you on a range of metadata and text encoding standards, includig METS, MODS, DC, TEI, JATS and DocBook. We can also help setting up repositories in source control systems like Git as well as multi-user cloud environments like Airtables and ... to maintain authority files like lists of persons, places or bibliography. We will propose best fitting solutions to store additional resources, like image or binary files.
+Consulting with us early on helps to avoid costs later as we can establish a data structure tailored to the specific requirements and research questions of a project.
+
+# Digital Editions
 
 ## Transcription of the manuscript
 
