@@ -8,8 +8,8 @@ Jinntec Homepage
 
 | Content                   |      Path                                                                     | 
 | ------------------------- | ----------------------------------------------------------------------------- |
-| menu                      | `config/_default/params.toml`, `english/contact.md`, `german/contact.md`      |
-| contact, logo             | `config/_default/menus.en.toml`, `config/_default/menus.de.toml`              |
+| menu                      | `config/_default/menus.en.toml`, `config/_default/menus.de.toml`              |
+| contact, logo             | `config/_default/params.toml`, `english/contact.md`, `german/contact.md`      |
 | home                      | `english/_index.md`, `german/_index.md`                                       |
 | about                     | `english/about.md`, `german/about.md`                                         |
 | digital-editions          | `english/_index.md`, `german/_index.md`                                       |
@@ -55,9 +55,14 @@ hugo server
 ### Customize SCSS 
 Don't edit the scss vendor theme files directly (everything in folder `themes/andromeda-hugo/scss`!) and edit the custom scss file instead => 
  ```
- assets/scss/custom.scss
+assets/scss/custom.scss
  ```
 This helps to keep the css in order and to update with future versions of the theme.
+
+To define global variables and plugins, edit file
+```
+themes/andromeda-hugo/config.toml 
+```
 
 ### Customize Templates
 Also, avoid to edit the original templates, rather create new ones and add them to the theme folder `themes/andromeda-hugo/layouts/`.

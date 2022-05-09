@@ -1,4 +1,8 @@
 ---
+######################################
+##         Active Content           ##
+######################################
+
 # banner
 banner:
   title: "Solutions for Research and Business"
@@ -8,6 +12,45 @@ banner:
   button: "Some text"
   button_link: "#!"
   # image: "images/banner-app.png"
+
+# our_features
+our_features:   
+  enable: true
+  title: "What we do"
+  block:
+
+  - subtitle: "Research & Commercial"
+    title: "Institutions & Businesses"
+    description: "Our cost-effective, open source, modular approach allows us to rapidly put together aplications with very little custom coding which are easily maintainable even by non-technicians. "
+    image: "images/institutions.jpg"
+    linkToPage: "institutions-and-business/"
+
+  - subtitle: "Digital editions & Humanities research"
+    title: "Digital Humanities"
+    description: "
+    Fast track from research data preparation and maintenance to the publication of your material online and in print with a full blown query interfaces supporting data discovery, various visualizations and multi-facetted searches. Handwritten text recognition, automated language processing, Microsoft Word and XML data input and more - we handle it all."
+    #change image to something with a network graph
+    image: "images/digital-edition.jpg"
+    linkToPage: "digital-editions/"
+
+  - subtitle: "True Interoperability & Sustainability"
+    title: "Libraries and Archives"
+    description: "How can libraries and archives really preserve digital publications and research datasets created through the decades with a multitude of technologies and standards? Let us tell you how."
+    image: "images/archives1.jpg"
+    linkToPage: "libraries-and-archives/"
+
+  - subtitle: ""
+    title: "Publishing"
+    description: "Create online and print publications with a single, highly automated typesetting process based on acknowledged open source standards. Responsive websites, high quality PDF and ebook generation, interactive content, MS Word integration and full workflow support all come together in our solutions."
+    image: "images/digital-edition.jpg"
+    linkToPage: "publishing/"
+
+  
+
+
+######################################
+##    This Content isn't used yet   ##
+######################################
 
 # brands
 brands_carousel:
@@ -24,7 +67,6 @@ brands_carousel:
   - "images/brands/01-colored.png"
   - "images/brands/06-colored.png"
   - "images/brands/05-colored.png"
-
 
 # features
 features:
@@ -61,13 +103,6 @@ intro_video:
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
   video_thumbnail: "images/video-popup.jpg"
-
-
-# how_it_works
-how_it_works:   
-  enable: true
-  section: "how-it-works" # content comming from how-it-works page
-
 
 # testimonials
 testimonials:   

@@ -24,7 +24,10 @@
   
 - id: about_the_role
   translation: O roli
-  
+
+- id: read_more_about
+  translation: Read More about
+
 - id: fname
   translation: Imię
   

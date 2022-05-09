@@ -4,7 +4,7 @@
 
 {{with .Params.how_it_works_video}}
 {{if .enable}}
-<section class="section pb-0 video-popup">
+<section class="section pb-0 video-popup section_how_it_works">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-12">
@@ -36,7 +36,7 @@
 
 {{with .Params.how_it_works}}
 {{if .enable}}
-<section class="section-sm">
+<section class="section-sm how_it_works_section">
   <div class="container">
     {{ $.Scratch.Set "counter" 0 }}
     {{range .block}}

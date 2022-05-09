@@ -1,11 +1,76 @@
 ############# French navigation ##############
 
-# [[main]]
-# name = "Home"
-# url = ""
-# weight = 1
+[[main]]
+name = "Home"
+url = ""
+weight = 1
 
-# [[main]]
-# name = "Contact"
-# url = "contact/"
-# weight = 2
+[[main]]
+weight = 2
+name = "Audiences"
+hasChildren = true
+
+  [[main]]
+  parent = "Audiences"
+  name = "Digital Editions"
+  url = "digital-editions/"
+  weight = 1
+
+  [[main]]
+  parent = "Audiences"
+  name = "Libraries And Archives"
+  url = "libraries-and-archives/"
+  weight = 2
+
+  [[main]]
+  parent = "Audiences"
+  name = "Publishing"
+  url = "publishing/"
+  weight = 3
+
+  [[main]]
+  parent = "Audiences"
+  name = "Institutions & Businesses"
+  url = "institutions-and-business/"
+  weight = 4
+
+[[main]]
+name = "About Us"
+url = "about/"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 4
+
+# footer menu
+[[footer]]
+name = "Digital Editions"
+url = "digital-editions/"
+weight = 1
+
+[[footer]]
+name = "Libraries And Archives"
+url = "libraries-and-archives"
+weight = 2
+
+[[footer]]
+name = "Publishing"
+url = "publishing/"
+weight = 3
+
+[[footer]]
+name = "Institutions & Businesses"
+url = "institutions-and-business"
+weight = 4
+
+[[footer]]
+name = "About Us"
+url = "about/"
+weight = 5
+
+[[footer]]
+name = "Imprint"
+url = "imprint/"
+weight = 6

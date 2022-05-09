@@ -3,9 +3,13 @@ title: "How It Works"
 layout: "how-it-works"
 draft: false
 
+######################################
+##    This Content isn't used yet   ##
+######################################
+
 how_it_works_video:
   enable: true
-  subtitle: "Our Features"
+  subtitle: "Audiences"
   title: "How it works"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
@@ -14,7 +18,7 @@ how_it_works_video:
 
 # how_it_works
 how_it_works:   
-  enable: true
+  enable: false
   title: "What we do"
   block:
   - subtitle: ""

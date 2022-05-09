@@ -26,7 +26,7 @@
   translation: Quick Links
   
 - id: location_contact
-  translation: Location & Contact
+  translation: Location & Kontakt
   
 - id: recent_posts
   translation: Recent Posts by
@@ -38,8 +38,11 @@
   translation: View Listing
   
 - id: read_more
-  translation: Read More
-  
+  translation: Mehr lesen
+
+- id: read_more_about
+  translation: Mehr lesen über
+
 - id: about_the_role
   translation: About the role
   
