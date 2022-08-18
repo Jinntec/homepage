@@ -5,7 +5,7 @@
 
 # banner
 banner:
-  title: "Solutions for Research and Business"
+  title: "Digital Solutions for Research and Business"
   subline: true
   sublineText: "Technology with a touch of magic"
   buttonLink: false
