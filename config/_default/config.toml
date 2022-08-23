@@ -30,8 +30,9 @@ dir = ":resourceDir/_gen"
 maxAge = "720h"
 
 [markup]
-[markup.goldmark.renderer]
-unsafe= true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe= true
 
 [mediaTypes]
 [mediaTypes."application/manifest+json"]
