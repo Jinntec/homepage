@@ -4,6 +4,5 @@
 !.htaccess
 
 # Ignore generated files during development
-resources/_gen/*
-
 public/
+/resources/_gen/
