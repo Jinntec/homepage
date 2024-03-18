@@ -10,7 +10,21 @@
 {{ $scripts := $scripts | append (resources.Get "js/script.js" | minify) }}
 {{ $scripts := $scripts | resources.Concat "/js/script.js" | minify | fingerprint "sha512" }}
 <script crossorigin="anonymous" defer="defer" integrity="{{ $scripts.Data.Integrity }}" type="application/javascript">{{$scripts.Content | safeJS}}</script>
-
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.existsolutions.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 <!-- cookie -->
 {{ with site.Params.cookies }}
 {{ if .enable }}
@@ -60,6 +74,7 @@
 <!-- <script async src="https://cdn.jsdelivr.net/gh/theprojectsomething/webfontloader@feature/google-fonts-v2/webfontloader.js"></script> -->
 {{$pf:= site.Params.variables.primary_font}}
 {{$sf:= site.Params.variables.secondary_font}}
+<!--
 <script type="application/javascript">
   WebFont.load({
     google: {
@@ -71,4 +86,4 @@
       sessionStorage.fontsLoaded = true
     }
   });
-</script>
+</script>-->
