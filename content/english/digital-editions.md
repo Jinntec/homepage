@@ -3,10 +3,55 @@ title: "Digital Editions"
 layout: "terms-and-conditions"
 draft: false
 url: "digital-editions/"
-
-
-description: "Digital Editions Page Description"
 ---
+
+<main>
+<section class="slalom" translate="no">
+  <style>:root { --n: 5 }</style>
+<div style="--idx: 0;--c0: #b071fe;--c1: #c08fff;--c2: #8d5bcc">
+  <h3>Guidelines</h3>
+    <div class="detail">This is often neglected. It is important though to be explicit about the encoding principles,
+    TEI subset etc. before you start transcribing. This includes writing an ODD from which a schema 
+    and project documentation can be generated. We can also suggest an organization for your data files: encoded source 
+    documents, authority files (such as lists of persons, places or bibliography), image resources, binary files etc.
+    Consulting with us in this phase will also help to avoid costs later as we can establish a data
+    structure tailored to the specific requirements and research questions of a project.
+    </div>
+</div>
+
+<div style="--idx: 1;--c0: #f88c06;--c1: #f7a334;--c2: #c87107">
+  <h3>Transcription</h3>
+    <div class="detail">
+        <p>Jinntec supports editions with different approaches depending on the customers requirements:</p>
+        <ul>
+            <li>create a Word template and customize the Word import accordingly to ensure high-quality TEI aligned with the established encoding guidelines</li>
+            <li>XML-editing workflows based on oXygen or VSCode.</li>
+            <li>or start with an HTR engine like transkribus for acquiring the raw transcription</li>
+        </ul>
+        <p>All cases should include proper version management based on git.</p>
+    </div>
+</div>
+<div style="--idx: 2;--c0: #b3de15;--c1: #c2e443;--c2: #8fb112">
+  <h3>ice cream</h3>
+  <div class="detail">Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</div>
+</div>
+<div style="--idx: 3;--c0: #e43695;--c1: #e95eab;--c2: #b52e78">
+  <h3>Enrichment</h3>
+  <div class="detail">Cake cookie lemon drops muffin sugar plum. Liquorice pudding sugar plum topping macaroon pie chocolate.</div>
+</div>
+<div style="--idx: 4;--c0: #09c3d0;--c1: #3aced6;--c2: #0a9da7">
+  <h3>Metadata</h3>
+  <div class="detail">Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</div>
+</div>
+<div style="--idx: 4;--c0: #09c3d0;--c1: #3aced6;--c2: #0a9da7">
+  <h3>Digital Edition</h3>
+  <div class="detail">Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</div>
+</div>
+
+</section>
+</main>
+
+--- 
 
 ## Encoding guidelines, data structures etc.
 

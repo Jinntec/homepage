@@ -5,39 +5,39 @@ name = "Home"
 url = ""
 weight = 1
 
-[[main]]
-weight = 2
-name = "Unsere Leistungen"
-hasChildren = true
+#[[main]]
+#weight = 2
+#name = "Unsere Leistungen"
+#hasChildren = true
+#
+#  [[main]]
+#  parent = "Unsere Leistungen"
+#  name = "Digitale Editionen"
+#  url = "digital-editions/"
+#  weight = 1
+#
+#  [[main]]
+#  parent = "Unsere Leistungen"
+#  name = "Bibliotheken Und Archive"
+#  url = "libraries-and-archives/"
+#  weight = 2
+#
+#  [[main]]
+#  parent = "Unsere Leistungen"
+#  name = "Publishing"
+#  url = "publishing/"
+#  weight = 3
+#
+#  [[main]]
+#  parent = "Unsere Leistungen"
+#  name = "Individuelle Lösungen"
+#  url = "institutions-and-business/"
+#  weight = 4
 
-  [[main]]
-  parent = "Unsere Leistungen"
-  name = "Digitale Editionen"
-  url = "digital-editions/"
-  weight = 1
-
-  [[main]]
-  parent = "Unsere Leistungen"
-  name = "Bibliotheken Und Archive"
-  url = "libraries-and-archives/"
-  weight = 2
-
-  [[main]]
-  parent = "Unsere Leistungen"
-  name = "Publishing"
-  url = "publishing/"
-  weight = 3
-
-  [[main]]
-  parent = "Unsere Leistungen"
-  name = "Individuelle Lösungen"
-  url = "institutions-and-business/"
-  weight = 4
-
-[[main]]
-name = "Über Uns"
-url = "about/"
-weight = 3
+#[[main]]
+#name = "Über Uns"
+#url = "about/"
+#weight = 3
 
 [[main]]
 name = "Kontakt"
