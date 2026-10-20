@@ -84,26 +84,23 @@
         <div class="footer-widget">
           <h4 class="mb-4">{{i18n `socials`}}</h4>
 
-          {{with site.Params.contact_info.email}}
+          {{with site.Params.contact_info}}
           <ul class="footer-links list-unstyled mb-4">
-            {{range first 1 .}}
+            {{range first 1 .email}}
             {{if .}}
-            <li><a href="mailto:{{.}}">{{.}}</a></li>
+            <li><i class="las la-envelope mr-2"></i><a href="mailto:{{.}}">{{.}}</a></li>
             {{end}}
             {{end}}
-          </ul>
-          {{end}}
-
-          {{ with site.Params.social}}
-          <ul class="social-links list-inline">
-            {{ range .}}
-            <li class="list-inline-item"><a href="{{.link}}" title="{{.title}}">
-              <i class="{{.icon}}"></i>
-            </a></li>
+            {{range first 1 .phone}}
+            {{if .}}
+            <li><i class="las la-phone mr-2"></i><a href="tel:{{replace . " " ""}}">{{.}}</a></li>
+            {{end}}
+            {{end}}
+            {{range site.Params.social}}
+            <li><i class="{{.icon}} mr-2"></i><a href="{{.link}}" target="_blank" rel="noopener">{{.title}}</a></li>
             {{end}}
           </ul>
           {{end}}
-
         </div>
       </div>
 <!--
@@ -126,11 +123,7 @@
           {{with site.Params.contact_info}}
           <ul class="footer-links list-unstyled">
             <li>{{.address | markdownify}}</li>
-            {{range first 1 .phone}}
-            {{if .}}
-            <li><a href="tel:{{.}}">{{.}}</a></li>
-            {{end}}
-            {{end}}
+            <li><a href="{{ `contact/` | relLangURL }}">{{i18n `imprint_link`}}</a></li>
           </ul>
           {{end}}
         </div>

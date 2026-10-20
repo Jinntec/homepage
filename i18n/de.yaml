@@ -17,7 +17,7 @@
   translation: Umsatzsteuer Id
 
 - id: socials
-  translation: Socials
+  translation: Kontakt
   
 - id: social_media
   translation: Social Media
@@ -26,7 +26,7 @@
   translation: Quick Links
   
 - id: location_contact
-  translation: Location & Contact
+  translation: Standort
   
 - id: recent_posts
   translation: Recent Posts by
@@ -126,3 +126,6 @@
   
 - id: year
   translation: Year
+
+- id: imprint_link
+  translation: Impressum

@@ -9,7 +9,7 @@ logo = "images/jinntec-logo.svg"
 logo_width = "240x"
 # logo text will only show when logo is missing.
 logo_text = "Jinntec GmbH"
-# OpenGraph / Twitter Card metadata
+# OpenGraph metadata
 description = "Jinntec offers solutions for Research and Business. We offer open source solutions for Digital Editions, Libraries and Archives, Publishing and individual solutions on our own platform."
 author = "Jinntec GmbH"
 image = "images/jinntec-logo.png" # this image will be used as fallback if a page has no image of its own
@@ -61,11 +61,6 @@ button = "Download The Theme"
 button_link = "/"
 
 ############################# social site ########################
-
-[[social]]
-title = "Twitter"
-icon = "lab la-twitter" # https://icons8.com/line-awesome
-link = "https://twitter.com/jinntec"
 
 [[social]]
 title = "LinkedIn"
