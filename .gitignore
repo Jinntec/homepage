@@ -1,6 +1,7 @@
 .*
 !.gitignore
 !.editorconfig
+!.nvmrc
 !.htaccess
 
 # Ignore generated files during development
