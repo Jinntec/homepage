@@ -6,7 +6,7 @@
   HUGO_VERSION = "0.168.0"
   NODE_VERSION = "22"
   DART_SASS_VERSION = "1.105.2"
-  HUGO_BASEURL = ""
+  HUGO_BASEURL = "https://jinntec.de/"
 
 
 [headers.values]
