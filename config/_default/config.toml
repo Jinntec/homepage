@@ -17,7 +17,7 @@ disableLanguages = ["fr","pl"] # example: ["fr"] for disable french language
 [outputs]
 home = ["HTML", "RSS", "WebAppManifest"]
 
-[imaging]
+[imaging.jpeg]
 quality = 100
 
 [caches]

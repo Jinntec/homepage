@@ -1,7 +1,7 @@
 ################################### English language #####################################
 [en]
-languageName = "En"
-languageCode = "en"
+label = "En"
+locale = "en"
 contentDir = "content/english"
 weight = 1
 # copyright
@@ -10,8 +10,8 @@ copyright = "Jinntec Gmbh, 2022"
 
 ################################### German language #####################################
 [de]
-languageName = "De"
-languageCode = "de"
+label = "De"
+locale = "de"
 contentDir = "content/german"
 weight = 2
 # copyright

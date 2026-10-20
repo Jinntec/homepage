@@ -50,7 +50,7 @@
                 {{ if .IsTranslated }}
                 <div class="d-block d-lg-none text-center">
                   <select class="mx-3 border-0 font-weight-bold" id="select-language" onchange="location = this.value;">
-                    {{ $siteLanguages := site.Languages}}
+                    {{ $siteLanguages := slice }}{{ range hugo.Sites }}{{ $siteLanguages = $siteLanguages | append .Language }}{{ end }}
                     {{ $pageLang := .Page.Lang}}
                     {{ range .Page.AllTranslations }}
                     {{ $translation := .}}
@@ -58,10 +58,10 @@
                     {{ if eq $translation.Lang .Lang }}
                     {{ $selected := false }}
                     {{ if eq $pageLang .Lang}}
-                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .Label }}
                     </option>
                     {{ else }}
-                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+                    <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .Label }}</option>
                     {{ end }}
                     {{ end }}
                     {{ end }}
@@ -120,7 +120,7 @@
                   {{ if .IsTranslated }}
                   <div class="d-none d-lg-inline text-center">
                     <select class="mx-3 border-0 font-weight-bold" id="select-language-" onchange="location = this.value;">
-                      {{ $siteLanguages := site.Languages}}
+                      {{ $siteLanguages := slice }}{{ range hugo.Sites }}{{ $siteLanguages = $siteLanguages | append .Language }}{{ end }}
                       {{ $pageLang := .Page.Lang}}
                       {{ range .Page.AllTranslations }}
                       {{ $translation := .}}
@@ -128,10 +128,10 @@
                       {{ if eq $translation.Lang .Lang }}
                       {{ $selected := false }}
                       {{ if eq $pageLang .Lang}}
-                      <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .LanguageName }}
+                      <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}" selected>{{ .Label }}
                       </option>
                       {{ else }}
-                      <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .LanguageName }}</option>
+                      <option id="{{ $translation.Language }}" value="{{ $translation.RelPermalink }}">{{ .Label }}</option>
                       {{ end }}
                       {{ end }}
                       {{ end }}

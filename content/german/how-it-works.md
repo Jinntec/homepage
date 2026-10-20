@@ -35,7 +35,6 @@ how_it_works:
 
   - subtitle: ""
     title: "Individuelle Lösungen"
-    description: "Our component-based approach allows us to put together declarative web applications without any script coding that are understandable even by non-technicians. "
     description: "Mit unseren Komponenten-basierten Tools können deklarative Web Applikationen erstellt werden, ohne eine einzige Zeile Skript Code zu schreiben. End-Anwender
      können ihr Produkt verstehen und weitgehend konfigurieren. "
     image: "images/institutions.jpg"
